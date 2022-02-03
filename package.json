@@ -1,0 +1,18 @@
+{
+  "name": "typescript-yogi",
+  "version": "1.0.0",
+  "description": "타입스크립트 연습",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "consume",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  }
+}

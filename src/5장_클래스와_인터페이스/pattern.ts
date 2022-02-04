@@ -27,3 +27,5 @@ let Shoe = {
     }
   },
 };
+
+console.log("팩토리 패턴");

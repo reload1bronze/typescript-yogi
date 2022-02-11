@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "target": "ES2015",
     "sourceMap": true,
     "outDir": "dist",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
   },
   "include": [
     "src/**/*"
